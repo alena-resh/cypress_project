@@ -1,1 +1,1 @@
-Hi, in this repository you can find my cypress project 
+Hi, in this repository you can find my cypress project (my first steps)
