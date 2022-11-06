@@ -11,3 +11,28 @@ describe('Hooks', () => {
 //Chainers are provided in a string form and can be any valid chainers that come from Chai.
 
 .should('have.class', 'disabled')
+
+//cy.visit()
+
+
+//cy.get()
+
+
+//cy.contains()
+
+
+//cy.find() - searching
+
+//cy.include()
+
+//cy.pause - stop after a click
+//cy.log - logging
+
+//cy.type - filling in the fields
+
+//cy.clear - cleaning after entering
+
+//cy.check - if element has attr 'type' and checkbox (checkbox/radiobutton, select menu)
+//cy.uncheck
+
+//.should('be.checked') or .should('be.unchecked')
