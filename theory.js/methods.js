@@ -36,3 +36,11 @@ describe('Hooks', () => {
 //cy.uncheck
 
 //.should('be.checked') or .should('be.unchecked')
+
+//it.skip - skipping the test
+
+//it.only - running only selected test
+
+//.as - alias
+
+//cy.get(locator).as('aliasName') => cy.get('@aliasName')
