@@ -1,1 +1,1 @@
-Hi, in this repository you can find my cypress project (my first steps)
+Hi, in this repository you can find my cypress project (https://demoqa.com/ - inputs, checkbox, dropdown and so on)
