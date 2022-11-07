@@ -1,3 +1,7 @@
+Cypress.on('uncaught:exception', (err, runnable) => {
+    return false // returning false here prevents Cypress from failing the test
+  })
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
