@@ -14,7 +14,7 @@ describe('Common methods', () => {
         cy.get('div.main-header').should('include.text', 'Elements')
     })
 
-    it('input field', () => {
+    it.skip('input field', () => {
         cy.get('li#item-0 span').contains('Text Box').click()
         cy.get('#userName')
             .should('have.attr', 'placeholder', 'Full Name')
@@ -28,7 +28,7 @@ describe('Common methods', () => {
         cy.get('#result').should('contain', 'You have selected :home')
     })
     
-    it.skip('verify radioButtons', () => {
+    it('verify radioButtons', () => {
         cy.get('#item-2 span').contains('Radio Button').click()
         cy.get('input#yesRadio').as('radioButton')
         cy.get('@radioButton')
