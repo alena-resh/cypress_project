@@ -1,4 +1,5 @@
 {
   "nameHeader": "Details about Lorem Ipsum",
-  "tabs": ["What", "Origin", "Use", "More"]
+  "tabs": ["What", "Origin", "Use", "More"],
+  "dayList": ["Mon, Nov 07", "Tue, Nov 08", "Wed, Nov 09", "Thu, Nov 10", "Fri, Nov 11", "Sat, Nov 12", "Sun, Nov 13", "Mon, Nov 14"]
 }

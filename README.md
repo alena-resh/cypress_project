@@ -1,1 +1,1 @@
-Hi, in this repository you can find my cypress project (https://demoqa.com/ - inputs, checkbox, dropdown and so on)
+Hi, in this repository you can find my cypress project (https://demoqa.com/ and https://openweathermap.org/ - inputs, checkbox, dropdown and so on)
