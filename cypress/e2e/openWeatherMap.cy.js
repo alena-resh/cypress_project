@@ -18,12 +18,12 @@ describe('8-day forecast', () => {
             .should('have.text', dateNow)
     })
 
-    it('Remember me radio button', () => {
+    it('remember me radio button', () => {
         cy.get('li.user-li').contains('Sign in').click({ force: true })
         cy.get('#user_remember_me').check().should('be.checked')
     })
 
-    it('Enter email', () => {
+    it('enter email', () => {
         cy.get('li.user-li').contains('Sign in').click({ force: true })
         cy.get('#user_email')
             .should('have.attr', 'placeholder', 'Enter email')
