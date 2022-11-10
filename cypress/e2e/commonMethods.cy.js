@@ -14,7 +14,7 @@ describe('Common methods', () => {
         cy.get('div.main-header').should('include.text', 'Elements')
     })
 
-    it.skip('input field', () => {
+    it.skip('input field - full name', () => {
         cy.get('li#item-0 span').contains('Text Box').click()
         cy.get('#userName')
             .should('have.attr', 'placeholder', 'Full Name')
@@ -22,7 +22,7 @@ describe('Common methods', () => {
             .clear()
     })
 
-    it('input field', () => {
+    it('input field - check box', () => {
         cy.get('#item-1 span').contains('Check Box').click()
         cy.get('#tree-node-home').check({force: true}).should('be.checked')
         cy.get('#result').should('contain', 'You have selected :home')
