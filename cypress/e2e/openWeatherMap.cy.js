@@ -23,12 +23,14 @@ describe('8-day forecast', () => {
         cy.get('#user_remember_me').check().should('be.checked')
     })
 
-    it('enter email', () => {
+    it('sign in - enter email and password', () => {
         cy.get('li.user-li').contains('Sign in').click({ force: true })
         cy.get('#user_email')
             .should('have.attr', 'placeholder', 'Enter email')
             .type('alenareshh@gmail.com')
-            .clear()
+        cy.get('#user_password.form-control')
+            .should('have.attr', 'placeholder', 'Password')
+            .type('12341234')
     })
 })
 
