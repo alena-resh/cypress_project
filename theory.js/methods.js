@@ -44,3 +44,9 @@ describe('Hooks', () => {
 //.as - alias
 
 //cy.get(locator).as('aliasName') => cy.get('@aliasName')
+
+//each - iterate over an array of DOM elements
+
+//eq = get a DOM element at a specific index in array
+
+//promise .then()
